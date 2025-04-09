@@ -1,0 +1,76 @@
+Checklist to execute the Delete / Update task:
+Before executing the task, please ensure to confirm these details like 
+•	Identify the resource type (Database, Server, Application, Storage bucket etc). Understand its purpose & dependencies in the system. Check if resources are in active use or not.
+•	Inform the Customer or Relevant about the planned deletion. Obtain approval from stakeholders / Resource owners.
+•	Identify any dependent applications, services or systems.
+•	Create a backup of the resources especially if it contains data (Database, Storage bucket).
+•	 Record the details about the resources being deleted like Environment / 
+Subscription / Resource Group / Name / ID / Configurations).
+•	Note the reason for deletion & approval.
+•	Update the documentation to reflect the changes.
+•	Ensure the deletion operation aligns with organizations policies.
+•	Check if the resource is being accessed by the end users or internal teams.
+•	Confirm if the resource is idle or unused.
+•	Deployment / Deletion / Modification should be done in the presence of Team Lead.
+•	Start the deletion in a DEV environment.
+•	Verify the resource is successfully deleted.
+•	Confirm there is no residual impact on system performance.
+•	Remove the references to the deleted resource from configuration files or scripts.
+•	Share the lessons learned or improvements with the team for future deletions.
+
+
+
+
+Deployment Guideline:
+•	For Deletion related task, Create a child task in Azure DevOps Board. 
+•	Firstly check & prepare the plan for task, then take formal approval from Customer.
+•	First perform the Deployment / Creation / Modification / Deletion task in DEV environment.
+•	Then Test & Review it, once it is successful only then proceed with QA environment. Proper maintain time gap in Between Dev, QA environment activity.
+•	Again Test & Review it, once it is successful only then proceed with PRD environment. Proper maintain time gap in Between QA & PRD environment activity.
+
+Document of the Deployment process:
+•	Maintain the clear documentation for the deployment steps, Rollback plan & troubleshooting.
+
+Security Practices:
+•	Limit the deployment access to authorized personnel only.
+•	Regularly scan for security vulnerabilities in dependencies.
+
+Post Deployment:
+•	Perform quick checks on core functionalities after deployment.
+•	Collect feedback from users& team members for continuous improvement.
+
+
+Guidelines for a New Joiner:
+•	Primary CWID needs to be created after that candidate can access the GitHub Bayer Wiki documentation. Before starting the work, please go through the architecture & guidelines in the below link.
+https://docs.int.bayer.com/ch-it/latest/Product_Platforms/DAA/
+•	Customer interaction needs to be done with proper introduction.
+•	Request for the 2nd CWID with necessary permissions so that candidate can start his/her work.
+•	KT needs to be given to new joiner to understand the architecture & tasks.
+•	New joiners need to start work under the monitoring of team.
+
+
+
+Important links for the new joiner:
+
+https://dev.azure.com/bayerchanalytics/DataAnalyticsAccelerator/    
+devops portal
+ 
+https://portal.azure.com/#home
+Azure portal
+
+https://github.com/bayer-int/CHDAA-PLATFORM-OPS-SCRIPTS/
+Git hub
+
+https://zp23813.west-europe.azure.snowflakecomputing.com/oauth/authorize?response_type=code&client_id=U3G7vO3pyXHyxuLxCzaY%2Ffg0rt5Pcg%3D%3D&scope=refresh_token&state=%7B%22isSecondaryUser%22%3Afalse%2C%22csrf%22%3A%224e9ce462%22%2C%22url%22%3A%22https%3A%2F%2Fzp23813.west-europe.azure.snowflakecomputing.com%22%2C%22windowId%22%3A%220b90fc53-d47a-41b7-97b0-27799328b89c%22%2C%22classicUIUrl%22%3A%22https%3A%2F%2Fzp23813.west-europe.azure.snowflakecomputing.com%22%2C%22browserUrl%22%3A%22https%3A%2F%2Fapp.snowflake.com%2Fbay%2Fchdaadev%22%2C%22originator%22%3A%22started-by-cb100-2024-12-05T10%3A44%3A26.705623444Z%22%2C%22oauthNonce%22%3A%22RJoB7Yy5OJJYVwuf%22%7D&redirect_uri=https%3A%2F%2Fapps-api.c1.westeurope.azure.app.snowflake.com%2Fcomplete-oauth%2Fsnowflake&code_challenge=gOTMfTuR5VAyLRybAqNN248U8pfXghUUrNWG1-q-tC4&code_challenge_method=S256
+
+Snowflake
+
+https://bayersi.service-now.com/now/nav/ui/classic/params/target/%24pa_dashboards_overview.do
+
+Service now
+
+
+
+Bayer Process:  
+
+1:  TCS platform team can connect with OH22 after discussion with Bayer regarding pipeline replated issues.
