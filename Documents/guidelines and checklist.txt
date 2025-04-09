@@ -73,4 +73,4 @@ Service now
 
 Bayer Process:  
 
-1:  TCS platform team can connect with OH22 after discussion with Bayer regarding pipeline replated issues.
+1:  TCS platform team can connect with OH22 after discussion with Bayer regarding pipeline related issues.
