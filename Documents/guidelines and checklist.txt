@@ -55,7 +55,7 @@ Important links for the new joiner:
 https://dev.azure.com/bayerchanalytics/DataAnalyticsAccelerator/    
 devops portal
  
-https://portal.azure.com/#home
+https://portal.azure.com/#home 
 Azure portal
 
 https://github.com/bayer-int/CHDAA-PLATFORM-OPS-SCRIPTS/
