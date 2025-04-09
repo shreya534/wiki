@@ -1,0 +1,20 @@
+How to Update GitHub WiKi:
+
+Step 1: Need to find the exact wiki link(https://docs.int.bayer.com/ch-it/latest/Product_Platforms/DAA/Accelerator/Zone-Specifications/?h=beat#list-of-projects-products-incl-beat-camp-ids)
+
+Step 2: Now you have to login to github, Find the repo ch-architecture-docs
+Step 3: Navigate to the doc from the given wiki link and then follow the path accordingly.
+
+e.g: if you have this link: https://docs.int.bayer.com/ch-it/latest/Product_Platforms/DAA/Accelerator/Zone-Specifications/?h=beat#list-of-projects-products-incl-beat-camp-ids
+then 1st open the repo ch-architecture-docs, then click on docs. after that Product_Platforms -> DAA -> Accelerator -> zone-Specifications -> index.md(?h=beat#list-of-projects-products-incl-beat-camp-ids)
+
+Step 4: Edit the doc as per your requirement.
+
+Step 5: commit the doc into your branch and create a pull request. 
+
+Note: 1. Always add image in png format.
+      2. Do not make changes in main branch. 
+      3. While sending pr for approval you need to send the draft version of wiki.
+
+Step 6: After approval you need to merge this to main branch.
+
