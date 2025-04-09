@@ -1,0 +1,22 @@
+Woody.io - Consumer Health IT - Wiki
+Open Prima
+For accessing woody application, you need to grant permission on ch\daa\platform\dms.users
+Check the user in Entra
+EntraID ->Groups-> All groups-> Search ch.daa.platform.dms.users -> Check the member
+If not present in entra then follow this process below:
+Select all roles from dropdown
+ 
+Search for ch\daa\platform\dms
+ 
+If the user present in Entra ask the user which application, they want to access and also confirm environment.
+Follow these steps:
+Click on the application ->
+Click Management (top at the right side) ->
+Click on the user -> 
+Add user (if name is present then select and give contributor role) otherwise create user with primary email address.
+
+
+
+
+
+
